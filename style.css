@@ -1,0 +1,43 @@
+/**
+ * Theme Name: room8
+ * Description: Boilerplate Child Theme
+ * Theme URI: https://labs.ahmadawais.com/_child/
+ * Author: basado en mrahmadawais, WPTie
+ * Author URI: http://ahmadawais.com/
+ * Template: twentysixteen
+ * Version: 1.0.0
+ * @package aa
+ */
+
+.entry-title,
+ .site-title,
+ .page-title,
+ .post-navigation .post-title,
+ .comment-reply-title,
+ button,
+ input[type="submit"] {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: normal;
+ }
+
+.widget .widget-title,
+.page-title {
+     font-family: 'Roboto', sans-serif;
+ }
+
+.site-title {
+    font-size: 3rem;
+ }
+
+ .site-title,
+ .post-navigation .post-title {
+     font-weight: normal;
+ }
+
+ .entry-title {
+    font-weight: lighter;
+ }
+
+.page-title {
+     color:#007acc;
+ }
