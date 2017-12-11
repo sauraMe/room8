@@ -58,7 +58,7 @@ function r8_cambia_creditos() {
 		$my_theme = wp_get_theme( 'twentyten' );
 		if ( $my_theme->exists() )
 			echo $my_theme;
-		echo '<a href="https://bitbucket.org/pepesaura/room8_child_theme">room8_child_theme</a>';
+		echo '<a href="https://github.com/WPCartagena/room8">GitHub/WPCartagena/room8</a><br />';
 }
 
 add_action('twentysixteen_credits', 'r8_cambia_creditos');
